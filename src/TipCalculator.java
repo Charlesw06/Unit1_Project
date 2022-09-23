@@ -33,6 +33,6 @@ public class TipCalculator {
         System.out.println("Total bill: $" + twoDForm.format(billTotal));
         System.out.println("Tip per person: $" + twoDForm.format(tipPerPerson));
         System.out.println("Cost per person: $" + twoDForm.format(costPerPerson));
-        // Displays the results to user in proper money form
+        // Displays the results to user in proper money form (two digits after decimal)
     }
 }
